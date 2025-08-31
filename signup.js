@@ -2,15 +2,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.2.0/firebas
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.2.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDMs_QBPLVwlASvATiwRK-Qd9SuqiEPqDc",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "manganest343632.firebaseapp.com",
   projectId: "manganest343632",
-  storageBucket: "manganest343632.firebasestorage.app",
-  messagingSenderId: "973182891353",
-  appId: "1:973182891353:web:b061877af98ee34220c848",
+  storageBucket: "manganest343632.appspot.com",
+  messagingSenderId: process.env.FIREBASE_MESSAGING_ID,
+  appId: process.env.FIREBASE_APP_ID,
   measurementId: "G-M7EGCX0BNH"
 };
-
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
