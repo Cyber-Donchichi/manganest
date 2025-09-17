@@ -5,8 +5,10 @@
 }
 
 body {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), 
-              url(https://unsplash.com/photos/a-busy-city-street-at-night-with-neon-signs-mGfUD56sh7E) center/cover no-repeat;
+background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), 
+            url("https://images.unsplash.com/photo-1631234567890-abcdef123456?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80") 
+            center/cover no-repeat;
+;
   background-attachment: fixed;
   min-height: 100vh;
   display: flex;
