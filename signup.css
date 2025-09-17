@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), 
-              url(Log.jpeg) center/cover no-repeat;
+              url(https://unsplash.com/photos/a-busy-city-street-at-night-with-neon-signs-mGfUD56sh7E) center/cover no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
   display: flex;
